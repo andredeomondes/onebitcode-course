@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div>
+            <label for="e-mail">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>        
+            <label for="whatsapp">WhatsApp:</label>
+            <br>
+            <input type="text" id="whatsapp" name="whatsapp" required />
+        </div>
+
+
+        <div>
+            <label for="area-atuacao">Área de atuação:</label><br>
+            <br>
+            <input type="radio" name="area" id="dev" value="dev" required>   
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="area" id="qa" value="qa" required>
+            <label for="qa">Quality Assuranre (QA)</label>
+        
+            <input type="radio" name="area" id="dados" value="dados" required>
+            <label for="analise-dados">Análise de Dados</label>
+
+            <input type="radio" name="area" id="infra" value="infra" required>
+            <label for="infra">Infraestrutura</label>
+        </div>
+        <div>    
+            <br>
+            <label for="obs">Observações: </label><br>
+            <textarea id="observacoes" name="observacoes"></textarea>
+        </div>
+            <input type="checkbox" id="ofertas" name="ofertas" checked required />
+            <label for="notificacao"> Desejo reeber novidades e ofertas por e-mail.</label><br>
+        <br>
+            <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>

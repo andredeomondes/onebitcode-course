@@ -1,0 +1,57 @@
+
+body {
+height: 100vh;
+position: relative;
+font-family: Arial, sans-serif;
+border-radius: 0.5rem 0.5rem 0 0;
+
+
+}
+
+body::before {
+height: 100vh;
+content: "";
+position: absolute;
+inset: 0;
+background-image: url("https://www.viagenspossiveis.com.br/wp-content/uploads/2013/02/C360_2012-11-19-17-59-02.jpg?_gl=1*1qj459a*_ga*MTMzNTYzODYxMy4xNzA2MDIxODE5*_ga_37GXT4VGQK*MTcyOTAwMjM5OC45NDQuMS4xNzI5MDA2MzI4LjAuMC4w*_fplc*VzJ0OUolMkZsMnZoaGN4QW5nb3RIWTk0cDlySSUyQnlESU4lMkZWZzJESmN4S0JKJTJGUDdaY3QxQ0U5Z2R1UDBjcnVta0dwMXZRdG16bnRsQm1oeTRlMXRlNVdUc0NmWWk2RGdmb1daMXduOHVIY2tVcSUyQkZKNjRpVmFVSmpnMElrclpwQSUzRCUzRA");
+opacity: 0.7;
+z-index: -1;
+border-radius: 0.5rem 0.5rem;
+
+
+
+}
+
+header {
+color: white;
+padding: 1rem;
+border-radius: 0.5rem 0.5rem 0 0;
+background-color: #248030bb;
+}
+
+main {
+margin-top: 1rem;
+padding: 1rem;
+background-color: #ffff8cd0;
+}
+
+footer {
+    text-align: center;
+margin-top: 27rem;
+padding: 1rem;
+background-color: rgba(240, 248, 255, 0.664);
+border-radius: 0 0 0.5rem 0.5rem;
+
+}
+
+button {
+    border-radius: 3px;
+    padding: 0.1rem;
+    border-style: none;
+background-color: #248030bb;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
